@@ -1,5 +1,5 @@
-x,y,z = list(map(int,input().split()))
-if x**2+y**2==z**2:
+a,b,c = list(map(int,input().split()))
+if a**2+b**2==c**2:
     print('Yes')
 else:
     print('No')
